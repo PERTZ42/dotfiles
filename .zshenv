@@ -5,7 +5,7 @@ export XDG_DATA_HOME=$HOME/.local/share
 export XDG_STATE_HOME=$HOME/.local/state
 
 #export work=$HOME/workspaces/
-export PATH="$HOME/.emacs.d/bin:$PATH"
+# export PATH="$HOME/.emacs.d/bin:$PATH"
 
 #export SSH_AUTH_SOCK=$XDG_RUNTIME_DIR/gcr/ssh
 
