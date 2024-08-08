@@ -2,7 +2,7 @@
 helper = !/usr/bin/gh auth git-credential
 [user]
 email = perttu.nurmi+github@gmail.com
-name = PERTZ42
+name = perttunurmi
 [color]
 diff = auto
 status = auto
