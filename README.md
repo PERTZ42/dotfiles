@@ -1,26 +1,19 @@
-# My personal dotfiles
+# My server dotfiles
 
-Should propably move over to using stow, but I am too lazy right now and besides at the moment this repo is mainly for my T480s.
-
-### Clone this repo
+### Clone repo and switch to server branch
 ```
-git clone https://github.com/PERTZ42/.dotfiles
-```
-
-### tpm is needed for tmux config
-```
-git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
+git clone https://github.com/PERTZ42/dotfiles
+cd dotfiles
+git switch server
 ```
 
 ### zsh is gonna cry without these
 ```
-sudo pacman -S zsh zsh-syntax-highlighting zsh-autosuggestions fzf eza zoxide
+sudo apt install -y zsh fzf eza zoxide
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 ```
 
 ### neovim is forked from kickstart
 ```
-git clone https://github.com/perttunurmi/nvim
+git clone https://github.com/perttunurmi/nvim ~/.config/
 ```
-
-Feel free to post on issues if something should have been done differently.
