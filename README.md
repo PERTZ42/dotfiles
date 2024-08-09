@@ -1,4 +1,4 @@
-# My server dotfiles
+# Home server dotfiles
 
 ### Clone repo and switch to server branch
 ```
